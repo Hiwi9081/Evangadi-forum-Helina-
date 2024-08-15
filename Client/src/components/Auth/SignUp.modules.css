@@ -1,0 +1,134 @@
+/* src/styles/SignUp.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.signup-container h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.signup-container p{
+    text-align: center;
+    font-size: 14px;  
+}
+.signup-container a{
+    color: #DA7000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.form-group-inline{
+    flex: 1;
+    margin-right: 10px;
+
+}
+.form-group-inline:last-child{
+    margin-right: 0;
+}
+
+.form-group input, .form-group-inline input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder, .form-group-inline input::placeholder {
+    color: #999999;
+    font-size: 14px;
+}
+
+.form-group input:focus, .form-group-inline input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.password-group{
+    position: relative;
+}
+.password-toggle{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999999;
+}
+.password-toggle i{
+    padding-bottom: 25px;
+}
+
+.form-group .error, .form-group-inline .error  {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.form-group p{
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.signup-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555555;
+    font-size: 14px;
+}
+
+.signup-footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-footer a:hover {
+    text-decoration: underline;
+}
+.signup-footer p a{
+    color: #DA7000;
+}

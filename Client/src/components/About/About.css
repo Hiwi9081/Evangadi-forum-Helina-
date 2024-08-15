@@ -1,0 +1,23 @@
+.login__about {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .about {
+    color: #da7000;
+    font-size: 18px;
+  }
+  
+  .about__title,
+  .about__Discription {
+    color: rgb(53, 51, 51);
+  }
+  
+  .login__about >button {
+      background-color: #da7000;
+      padding: 5px 20px;
+      font-size: 14px;
+      border: none;
+      border-radius: 3px;
+      color: white;
+  }
